@@ -1,0 +1,60 @@
+@charset "UTF-8";
+body{vertical-align: middle; background-image: url("../給學生/素材/DOT_BG.jpg");position: relative;}
+#card {
+    background-color: rgba(88,218,248,1);
+    margin: auto;
+    height: 280px;
+    width: 560px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.43);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.43);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+	position:relative;
+	overflow: hidden;
+}
+#pic {
+    /* [disabled]background-color: rgba(255,106,109,1); */
+    height: 100%;
+    float: left;
+    width: 210px;
+}
+#words {
+    /* [disabled]background-color: rgba(255,225,139,1); */
+    width: 330px;
+    clear: none;
+    float: left;
+    margin-top: 28px;
+    margin-bottom: auto;
+    height: 100%;
+    margin-left: 20px;
+}
+#card #words h1 {
+    color: rgba(0,94,104,1.00);
+}
+#card #words h3 {
+    color: rgba(73,73,73,1.00);
+}
+
+ul li  {
+    color: rgba(127,127,127,1.00);
+}
+
+.circle{
+	width:100px;
+	height:100px;
+	border-radius: 50px;
+	left:10px;
+	top: 260px;
+	position: relative;
+	
+}
+
+.circle-fill{
+	background-color: indianred;
+}
+.circle-stroke{
+	border: solid 3px indianred;
+}
